@@ -1,0 +1,29 @@
+body{
+    background: rgb(238, 237, 237);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(98, 98, 138);
+}
+
+footer{
+    font-family: fantasy!important;
+    font-size: 35%;
+    color: rgb(98, 98, 138)!important;
+}
+
+.bg-nav{
+    color: rgb(98, 98, 138)!important;
+}
+
+.title{
+    font-family: fantasy!important;
+    font-weight: bolder;
+    color: rgb(48, 48, 235)!important;
+}
+
+h1{
+    font-size: 500%;
+}
+

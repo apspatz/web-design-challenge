@@ -10,36 +10,46 @@
 </head>
 
 <header>
-    <div class="container">
+        <div class="container">
         <!-- Nav Bar -->
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
-                <a href="index.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Home</a>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <a href="viz.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Visualizations</a>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <a href="comp.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Comparisons</a>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <a href="data.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Data</a>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+                    <a class="navbar-brand" href="index.html">Crime in Raleigh</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="comp.html">Comparisons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="viz.html">Visualizations</a>
+                        </li>
+                      </ul>
+                    </div>
+                </nav>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
 <body>
     <div class="container">
         <div class="row">
             <!-- Header -->
-            <div class="col-md-12 d-flex justify-content-center">
+            <div class="col-md-12 d-flex justify-content-center title">
                 <h1>How Bad is it Where You Live?</h1>
             </div>
         </div>
         <div class="row">
             <!-- Header -->
-            <div class="col-md-12 d-flex justify-content-center">
+            <div class="col-md-12 d-flex justify-content-center title">
                 <h3>Visualizations</h3>
             </div>
         </div>
