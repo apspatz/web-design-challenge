@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+
+<header>
     <div class="container">
         <!-- Nav Bar -->
         <div class="row">
@@ -25,7 +26,11 @@
                 <a href="data.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Data</a>
             </div>
         </div>
+    </div>
+</header>
 
+<body>
+    <div class="container">
         <div class="row">
             <!-- Header -->
             <div class="col-md-12 d-flex justify-content-center">
@@ -42,21 +47,11 @@
 
         <div class="row">
             <!-- Introduction -->
-            <div class="col-ms-12 col-md-9">
+            <div class="col-sm-12 col-md-9">
                 <h4>Introduction</h4>
                 <p>Raleigh, capital of North Carolina, is the *** largest city in the state with a population of approximately ***. The Raleigh Police Department (RPD) consists of around *** of officers serving the 6 major districts shown on the map. Each district contains a diverse and varied population.
                 </p>
-            </div>
-
-            <div class="col-sm-12 col-md-3">
-                <!-- Distric Map -->
-                <img src=# href=# alt="RPD Districts">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <p>On this site, we have created visualizations of the types and rates of crime in each of Raleigh's crime districts using data collected from the RPD's <a href=#>crime API</a>.</p>
+                <p>On this site, we have created visualizations of the types and rates of crime in each of Raleigh's crime districts using data collected from the RPD's <a target= "_blank" href=https://data-ral.opendata.arcgis.com/datasets/raleigh-police-incidents-nibrs>NIBRS crime API</a>.</p>
                 <p>In order to simplify the analysis, we have grouped the types of crimes into 5 primary categories:</p>
                 <ul>
                     <li>Deaths</li>
@@ -66,13 +61,67 @@
                     <li>Other Crimes</li>
                 </ul>
             </div>
+
+            <div class="col-sm-12 col-md-3">
+                <!-- Distric Map -->
+                <a href="resources/RPD-district-map (2).pdf" target="_blank"><img src=https://www.raleighnc.gov/content/Police/Images/rpd-district-map.jpg  alt="RPD Districts"></a>
+            </div>
         </div>
 
+        <div class ="row">
+            <!-- Links to Visualizations -->
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="bd-example">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a href="district_viz.html"><img src="visualizations/tot_by_dist.png" class="d-block-sm" alt="All District Crime" style="width:500px;height:600px;"></a>
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>District Graphs</h5>
+                            <p>Crime visualizations divided by crime district.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="type_viz.html"><img src="visualizations/tot_by_type.png" class="d-block-sm" alt="Total Crime by Type" style="width:500px;height:600px;"></a>
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Crime Type Graphs</h5>
+                            <p>Crime visualizations divided by types of crime.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="time_viz.html"><img src="visualizations/tot_by_year.png" class="d-block-sm" alt="Total Crime by Year" style="width:500px;height:600px;"></a>
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Time Graphs</h5>
+                            <p>Crime visualizations over the time period.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    <footer>
+    <div class="container">
         <div class="row" id="small_font">
             <div class="col-md-12 d-flex justify-content-center">
                 <h6>Created by Andy Spatz for Data Visualization Course, Fall 2019</h6>
             </div>
-        </div>
+        </div>    
     </div>
-</body>
+    </footer>
 </html>

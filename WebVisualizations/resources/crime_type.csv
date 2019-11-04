@@ -1,0 +1,31 @@
+description,district,count
+Assault,Southeast,57
+Assault,Northeast,39
+Assault,North,37
+Assault,Downtown,20
+Assault,Southwest,19
+Assault,Northwest,9
+Deceased Person,North,88
+Deceased Person,Northeast,75
+Deceased Person,Northwest,64
+Deceased Person,Southwest,58
+Deceased Person,Southeast,55
+Deceased Person,Downtown,34
+Missing Person,Southeast,131
+Missing Person,Northeast,91
+Missing Person,North,80
+Missing Person,Southwest,50
+Missing Person,Downtown,31
+Missing Person,Northwest,25
+Other crimes,Southeast,174
+Other crimes,North,157
+Other crimes,Downtown,145
+Other crimes,Northwest,135
+Other crimes,Southwest,130
+Other crimes,Northeast,100
+Sex crime,Southeast,28
+Sex crime,Northeast,22
+Sex crime,North,17
+Sex crime,Southwest,16
+Sex crime,Downtown,15
+Sex crime,Northwest,12

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crime in Raleigh Visualized</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <div class="container">
+        <!-- Nav Bar -->
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <a href="index.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Home</a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <a href="viz.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Visualizations</a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <a href="comp.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Comparisons</a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <a href="data.html" class="btn btn-outline-primary btn active" role="button" aria-pressed="true">Data</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Header -->
+            <div class="col-md-12 d-flex justify-content-center">
+                <h1>How Bad is it Where You Live?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Header -->
+            <div class="col-md-12 d-flex justify-content-center">
+                <h3>Visualizations</h3>
+            </div>
+        </div>
+        
+
+        <div class="row">
+            <!-- Introduction -->
+            <div class="col-md-12">
+                <p>
+                    The data has been divided in three different ways: by district, by type, and over time.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="district_viz.html" target="_blank"><img src="visualizations/tot_by_dist.png" alt="District Visualizations" style="width:350px;height:400px;"></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="type_viz.html" target="_blank"><img src="visualizations/tot_by_type.png" alt="Crime Type Visualizations" style="width:350px;height:400px;"></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="time_viz.html" target="_blank"><img src="visualizations/tot_by_year.png" alt="Time Visualizations" style="width:400px;height:400px;"></a>
+            </div>
+        </div>
+    </div>
+    </body>
+    <footer>
+    <div class="container">
+        <div class="row" id="small_font">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h6>Created by Andy Spatz for Data Visualization Course, Fall 2019</h6>
+            </div>
+        </div>    
+    </div>
+    </footer>
+</html>
