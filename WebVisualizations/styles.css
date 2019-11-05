@@ -27,3 +27,7 @@ h1{
     font-size: 500%;
 }
 
+.dark{
+    color: black;
+    background: white;
+}
