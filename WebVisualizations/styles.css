@@ -31,3 +31,10 @@ h1{
     color: black;
     background: white;
 }
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}

@@ -10,38 +10,76 @@
 </head>
 
 <header>
-        <div class="container">
-        <!-- Nav Bar -->
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
-                    <a class="navbar-brand" href="index.html">Crime in Raleigh</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="data.html">Data</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="comp.html">Comparisons</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="viz.html">Visualizations</a>
-                        </li>
-                      </ul>
-                    </div>
-                </nav>
-            </div>
+  <div class="container">
+  <!-- Nav Bar -->
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+        <a class="navbar-brand" href="index.html">Crime in Raleigh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comp.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="viz.html">Visualizations</a>
+            </li>
+          </ul>
         </div>
-    </header>
-
+      </nav>
+    </div>
+  </div>
+</header>
 
 <body>
+  <div class="container">
+  <!-- Visualizations -->
+    <div class="row">
+      <div class="col-md-12 title">
+        <h1>Visualizations based on District</h1>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-md-12">
+        <p>Raleigh Police Department separates the city into 6 major districts, as shown on the map.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 justify-content-center">
+        <a href="resources/RPD-district-map (2).pdf" target="_blank"><img src=https://www.raleighnc.gov/content/Police/Images/rpd-district-map.jpg  alt="RPD Districts"></a>
+      </div>
+
+      <div class="col-sm-12 col-md-6 justify-content-center">
+        <table style="background:rgb(80, 73, 73)">
+          <tr><th style="color:#fbb7bf">1. Northwest</th></tr>
+          <tr><th style="color:#fcedb6">2. North</th></tr>
+          <tr><th style="color:#bbebfd">3. Northeast</th></tr>
+          <tr><th style="color:#b4fcba">4. Southeast</th></tr>
+          <tr><th style="color:#ecb2fe">5. Downtown</th></tr>
+          <tr><th style="color:#dcd4fb">6. Southwest</th></tr>
+        </table>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row">
+      <div class="col-md-12 justify-content-center">
+        <a href="visualizations/tot_by_dist.png" target="_blank"><img src="visualizations/tot_by_dist.png" alt="Total Crime in all Districts"></a>
+      </div>
+      <div class="col-md-12 justify-content-center">
+        <h6>Total Crime in All Districts</h6>
+      </div>
+    </div>
+  </div>
 </body>
 
 <footer>
