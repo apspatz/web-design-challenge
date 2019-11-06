@@ -10,38 +10,96 @@
 </head>
 
 <header>
-        <div class="container">
-        <!-- Nav Bar -->
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
-                    <a class="navbar-brand" href="index.html">Crime in Raleigh</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="data.html">Data</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="comp.html">Comparisons</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="viz.html">Visualizations</a>
-                        </li>
-                      </ul>
-                    </div>
-                </nav>
-            </div>
+  <div class="container">
+  <!-- Nav Bar -->
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+        <a class="navbar-brand" href="index.html">Crime in Raleigh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comp.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="viz.html">Visualizations</a>
+            </li>
+          </ul>
         </div>
-    </header>
-
+      </nav>
+    </div>
+  </div>
+</header>
 
 <body>
+  <div class="container">
+  <!-- Visualizations -->
+    <div class="row">
+      <div class="col-md-12 title d-flex justify-content-center">
+        <h1>Visualizations based on Time</h1>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <a href="visualizations/tot_by_year.png" target="_blank"><img src="visualizations/tot_by_year.png" alt="Total crime in Raleigh during the time period by year"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <h5 class="title">Total Crime in Raleigh During the Measured Time Period (Annual)</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-none d-md-block col-md-3"></div>
+      <div class="col-md-6">
+        <p>Based on the data, each year shows fairly consistent results.  There are approximately 500 crimes committed in the city each year.  However, as this shows only a very small time period, it is difficult to make better generalizations.</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <a href="visualizations/tot_by_month.png" target="_blank"><img src="visualizations/tot_by_month.png" alt="Total crime in Raleigh during the time period by month"></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <h5 class="title">Total Crime in Raleigh During the Measured Time Period (Monthly)</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="d-none d-md-block col-md-3"></div>
+    <div class="col-md-6">
+      <p>Based on the data, there are periods each year when the crime rate increases and decreases, without any particular pattern. That said, early 2017 showed a significant drop in crime in the city, followed by a large uptick in crime in the summer of 2017. Certainly this would be something to look into further.</p>
+    </div>
+  </div>
+</div>
+<hr>
+
+  <div class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <h5 class="title">Other Visualizations</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="d-none d-sm-block col-sm-3 col-md-4"></div>
+    <div class="col-md-2 d-flex justify-content-center">
+      <a href="type_viz.html"><button type="button" class="btn btn-outline-dark">Crime Type Graphs</button></a>
+    </div>
+    <div class="col-md-2 d-flex justify-content-center">
+      <a href="dist_viz.html"><button type="button" class="btn btn-outline-dark">District Graphs</button></a>
+    </div>
+  </div>
 </body>
 
 <footer>
